@@ -36,14 +36,20 @@
                         <label for="password" class="form-label">Digite a sua senha</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="confirmpassword" class="form-control" id="confirmpassword" name="confirmpassword" placeholder="Confirme sua senha">
+                        <input type="password" class="form-control" id="confirmpassword" name="confirmpassword" placeholder="Confirme sua senha">
                         <label for="confirmpassword" class="form-label">Confirme sua senha</label>
                     </div>
                     <div class="mb-3">
                         <div class="form-check mb-2">
                             <input type="checkbox" class="form-check-input" id="agree-form" name="agree-form">
-                            <label for="agree-form"class="form-check-label">Vo</label>
+                            <label for="agree-form"class="form-check-label">Você aceita os <a id="termos" href="#"> Termos de serviço</a> ?</label>
                         </div>
+                        <div class="form-check mb-2">
+                            <input type="checkbox" class="form-check-input" checked id="newsletter" name="newsletter">
+                            <label for="agree-form"class="form-check-label">Deseja receber nossas novidades?</label>
+                            
+                        </div>
+                        <input type="submit" class="btn btn-primary" value="Cadastrar">
                     </div>
                 </form>
             </div>

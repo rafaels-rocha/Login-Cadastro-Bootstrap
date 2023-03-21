@@ -36,6 +36,10 @@ body{
     color: #ccc;
 }
 
+#termos{
+    text-decoration:underline !important;
+}
+
 #form-container form{
     padding-bottom: 0px;
 }
@@ -59,13 +63,16 @@ body{
     color: #222;
 }
 
-#form-container input[type= "submit" ]{
+#form-container input[type= "submit" ],
+#form-container input[type= "checkbox"]:checked{
     background-color: #6c63ff;
     border-color:  #6c63ff;
 }
 
 .btn.btn-primary{
     width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 @media(min-width:768px){
